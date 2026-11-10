@@ -2,9 +2,18 @@
   "name": "three-ws-motion",
   "version": "0.1.0",
   "description": "Compile a text prompt or a Motion Score into a three.js AnimationClip for a humanoid, with no mocap data, model weights or renderer.",
-  "author": {"name": "nirholas"},
+  "author": {
+    "name": "nirholas"
+  },
   "repository": "https://github.com/nirholas/motion",
+  "homepage": "https://nirholas.github.io/motion/",
   "license": "Apache-2.0",
-  "keywords": ["3d", "animation", "inverse-kinematics", "humanoid", "text-to-motion", "threejs"],
-  "homepage": "https://nirholas.github.io/motion/"
+  "keywords": [
+    "3d",
+    "animation",
+    "inverse-kinematics",
+    "humanoid",
+    "text-to-motion",
+    "threejs"
+  ]
 }

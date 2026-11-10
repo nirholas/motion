@@ -1,13 +1,21 @@
 {
-  "name": "three-ws-motion",
-  "owner": {"name": "nirholas"},
+  "name": "motion",
+  "owner": {
+    "name": "nirholas"
+  },
   "description": "Procedural text-to-animation for humanoid rigs.",
   "plugins": [
     {
       "name": "three-ws-motion",
-      "source": "./",
+      "source": "./plugins/three-ws-motion",
       "description": "Compile a prompt or Motion Score into a three.js AnimationClip with the three-ws-motion CLI or library.",
-      "tags": ["animation", "3d", "threejs", "humanoid"]
+      "category": "development",
+      "tags": [
+        "animation",
+        "3d",
+        "threejs",
+        "humanoid"
+      ]
     }
   ]
 }
